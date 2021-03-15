@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BigBaseV2", "BigBaseV2\BigBaseV2.vcxproj", "{BAF9F07A-2664-A5F1-6FA2-5697DB4B8346}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImGui", "vendor\ImGui\ImGui.vcxproj", "{C0FF640D-2C14-8DBE-F595-301E616989EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinHook", "vendor\MinHook\MinHook.vcxproj", "{1A77E127-8656-60C3-8F6E-EB99FBCCC624}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StackWalker", "vendor\StackWalker\StackWalker.vcxproj", "{21FD7E7C-8DB2-F771-16A7-F148825BEE75}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fmtlib", "vendor\fmtlib\fmtlib.vcxproj", "{2319C3FD-0FBB-EDD3-F875-0128E4B67424}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAF9F07A-2664-A5F1-6FA2-5697DB4B8346}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{BAF9F07A-2664-A5F1-6FA2-5697DB4B8346}.Debug|Any CPU.Build.0 = Debug|x64
+		{BAF9F07A-2664-A5F1-6FA2-5697DB4B8346}.Debug|x64.ActiveCfg = Debug|x64
+		{BAF9F07A-2664-A5F1-6FA2-5697DB4B8346}.Debug|x64.Build.0 = Debug|x64
+		{BAF9F07A-2664-A5F1-6FA2-5697DB4B8346}.Release|Any CPU.ActiveCfg = Release|x64
+		{BAF9F07A-2664-A5F1-6FA2-5697DB4B8346}.Release|Any CPU.Build.0 = Release|x64
+		{BAF9F07A-2664-A5F1-6FA2-5697DB4B8346}.Release|x64.ActiveCfg = Release|x64
+		{BAF9F07A-2664-A5F1-6FA2-5697DB4B8346}.Release|x64.Build.0 = Release|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|Any CPU.Build.0 = Debug|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|x64.ActiveCfg = Debug|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Debug|x64.Build.0 = Debug|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|Any CPU.ActiveCfg = Release|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|Any CPU.Build.0 = Release|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|x64.ActiveCfg = Release|x64
+		{C0FF640D-2C14-8DBE-F595-301E616989EF}.Release|x64.Build.0 = Release|x64
+		{1A77E127-8656-60C3-8F6E-EB99FBCCC624}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{1A77E127-8656-60C3-8F6E-EB99FBCCC624}.Debug|Any CPU.Build.0 = Debug|x64
+		{1A77E127-8656-60C3-8F6E-EB99FBCCC624}.Debug|x64.ActiveCfg = Debug|x64
+		{1A77E127-8656-60C3-8F6E-EB99FBCCC624}.Debug|x64.Build.0 = Debug|x64
+		{1A77E127-8656-60C3-8F6E-EB99FBCCC624}.Release|Any CPU.ActiveCfg = Release|x64
+		{1A77E127-8656-60C3-8F6E-EB99FBCCC624}.Release|Any CPU.Build.0 = Release|x64
+		{1A77E127-8656-60C3-8F6E-EB99FBCCC624}.Release|x64.ActiveCfg = Release|x64
+		{1A77E127-8656-60C3-8F6E-EB99FBCCC624}.Release|x64.Build.0 = Release|x64
+		{21FD7E7C-8DB2-F771-16A7-F148825BEE75}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{21FD7E7C-8DB2-F771-16A7-F148825BEE75}.Debug|Any CPU.Build.0 = Debug|x64
+		{21FD7E7C-8DB2-F771-16A7-F148825BEE75}.Debug|x64.ActiveCfg = Debug|x64
+		{21FD7E7C-8DB2-F771-16A7-F148825BEE75}.Debug|x64.Build.0 = Debug|x64
+		{21FD7E7C-8DB2-F771-16A7-F148825BEE75}.Release|Any CPU.ActiveCfg = Release|x64
+		{21FD7E7C-8DB2-F771-16A7-F148825BEE75}.Release|Any CPU.Build.0 = Release|x64
+		{21FD7E7C-8DB2-F771-16A7-F148825BEE75}.Release|x64.ActiveCfg = Release|x64
+		{21FD7E7C-8DB2-F771-16A7-F148825BEE75}.Release|x64.Build.0 = Release|x64
+		{2319C3FD-0FBB-EDD3-F875-0128E4B67424}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{2319C3FD-0FBB-EDD3-F875-0128E4B67424}.Debug|Any CPU.Build.0 = Debug|x64
+		{2319C3FD-0FBB-EDD3-F875-0128E4B67424}.Debug|x64.ActiveCfg = Debug|x64
+		{2319C3FD-0FBB-EDD3-F875-0128E4B67424}.Debug|x64.Build.0 = Debug|x64
+		{2319C3FD-0FBB-EDD3-F875-0128E4B67424}.Release|Any CPU.ActiveCfg = Release|x64
+		{2319C3FD-0FBB-EDD3-F875-0128E4B67424}.Release|Any CPU.Build.0 = Release|x64
+		{2319C3FD-0FBB-EDD3-F875-0128E4B67424}.Release|x64.ActiveCfg = Release|x64
+		{2319C3FD-0FBB-EDD3-F875-0128E4B67424}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58C824D0-835C-47FD-876D-FC8DB47B784E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tecel007.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BigBaseV2\\BigBaseV2.vcxproj
+		SccProjectName1 = BigBaseV2
+		SccLocalPath1 = BigBaseV2
+		SccProjectUniqueName2 = vendor\\fmtlib\\fmtlib.vcxproj
+		SccProjectName2 = vendor/fmtlib
+		SccLocalPath2 = vendor\\fmtlib
+		SccProjectUniqueName3 = vendor\\ImGui\\ImGui.vcxproj
+		SccProjectName3 = vendor/ImGui
+		SccLocalPath3 = vendor\\ImGui
+		SccProjectUniqueName4 = vendor\\MinHook\\MinHook.vcxproj
+		SccProjectName4 = vendor/MinHook
+		SccLocalPath4 = vendor\\MinHook
+		SccProjectUniqueName5 = vendor\\StackWalker\\StackWalker.vcxproj
+		SccProjectName5 = vendor/StackWalker
+		SccLocalPath5 = vendor\\StackWalker
+	EndGlobalSection
+EndGlobal
